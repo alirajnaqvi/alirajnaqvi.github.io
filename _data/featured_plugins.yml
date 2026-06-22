@@ -1,0 +1,13 @@
+- name: example_plugin
+  repo_url: https://github.com/example/example-plugin
+  gem_name: example_plugin
+  jekyll_plugin_id: example_plugin
+  owner: example
+  license: See plugin repo LICENSE
+  compat:
+    al_folio_min: "1.0.0"
+    al_folio_max: "1.x"
+  status: bundled
+  demo_path: /
+  maintainer_contact: https://github.com/example
+  notes: Example plugin entry. Replace or remove.

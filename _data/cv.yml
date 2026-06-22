@@ -1,0 +1,82 @@
+cv:
+  name: Ali Raj Naqvi
+  label: Your Title
+  email: you@example.com
+  location: Your City, Country
+  image: ""
+  summary: A short bio. Replace this summary with your own.
+
+  social_networks:
+    - network: GitHub
+      username: alirajnaqvi
+
+  address:
+    street: 123 Example Street
+    city: Your City
+    region: Your Region
+    postalCode: "00000"
+    countryCode: US
+
+  sections:
+    Education:
+      - institution: Example University
+        location: City, Country
+        url: https://example.com/
+        area: Your Field of Study
+        studyType: Degree
+        start_date: 2020
+        end_date: 2024
+        highlights:
+          - Example highlight.
+
+    Experience:
+      - company: Example Company
+        position: Your Role
+        location: City, Country
+        start_date: 2024
+        end_date: Present
+        summary: Short description of your work.
+        highlights:
+          - Example accomplishment.
+
+    Awards:
+      - title: Example Award
+        authors:
+          - "Awarding Body"
+        date: 2024-01-01
+        awarder: Awarding Body
+        summary: Short description.
+
+    Skills:
+      - name: Example Skill
+        level: Intermediate
+        icon: fa-solid fa-hashtag
+        keywords: "Keyword 1, Keyword 2"
+
+    Languages:
+      - name: English
+        summary: "Native speaker"
+
+    Interests:
+      - name: Example Interest
+        icon: fa-solid fa-tag
+        keywords: "Keyword 1, Keyword 2"
+
+    Certificates:
+      - name: Example Certificate
+        date: 2024-01-01
+        issuer: Issuing Organization
+        icon: fa-solid fa-location-dot
+
+    Projects:
+      - name: Example Project
+        summary: Short description of the project.
+        highlights:
+          - Highlight 1
+        start_date: 2024-01-01
+        end_date: 2024-06-01
+
+    References:
+      - name: Reference Name
+        icon: fa-solid fa-laptop
+        reference: A short reference statement.

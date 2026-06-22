@@ -1,0 +1,68 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@use "sass:math";
+@use "sass:string";
+
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default:  "930px" }}
+);
+
+@use "themes";
+@use "layout";
+
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+/* -----------------------------------------------------------------------------
+ * Local overrides
+ * --------------------------------------------------------------------------- */
+
+/* Import Fira Sans from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+:root {
+  --global-theme-color: #2B4F8B;
+  --global-hover-color: #2B4F8B;
+  --global-font-family: 'Fira Sans', sans-serif;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, a, li, span, td, th, blockquote, figcaption, label, input, textarea, button {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+/* Bold all page titles */
+h1.post-title {
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+
+/* Profile image aligned to the left of the title at the same height */
+.about-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.about-header-text {
+  flex: 1;
+}
+
+.about-header-image {
+  flex-shrink: 0;
+  width: 160px;
+  text-align: center;
+  order: -1;
+}
